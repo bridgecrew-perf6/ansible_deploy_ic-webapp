@@ -1,0 +1,4 @@
+- src: https://github.com/lianhuahayu/docker_role.git
+- src: https://github.com/lianhuahayu/odoo_role.git
+- src: https://github.com/Yellow-carpet/pgadmin_role.git
+- src: https://github.com/omarpiotr/ic-webapp_role.git

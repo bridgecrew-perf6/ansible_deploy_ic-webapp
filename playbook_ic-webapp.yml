@@ -1,0 +1,7 @@
+---
+- name: "deploy pgadmin with a role"
+  hosts: ansible
+  become: true
+  roles:
+    - docker_role
+    - ic-webapp_role
