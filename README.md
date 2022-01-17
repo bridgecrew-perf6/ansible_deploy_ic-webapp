@@ -1,4 +1,13 @@
-# Deploy ic-webapp : 
+# Deploy ic-webapp
+## Liste des roles
+* docker_role : https://github.com/lianhuahayu/docker_role.git
+    * installe tous les outils necessaire pour utiliser docker et docker-compose
+* odoo_role : https://github.com/lianhuahayu/odoo_role.git
+    * lance deux conteneurs (odoo et postgres)
+* pgadmin_role : https://github.com/Yellow-carpet/pgadmin_role.git
+    * lance un conteneur (pgadmin liée à un database postgres)
+* ic-webapp_role : https://github.com/omarpiotr/ic-webapp_role.git
+    * lance un conteneur ic-webapp depuis l'image créer et stockée sur dockerhub 
 
 ## example d'utilisation 
 
